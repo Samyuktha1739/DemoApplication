@@ -1,0 +1,25 @@
+RecursionError:-
+a.The Python RecursionError is an exception that occurs when the maximum recursion
+ depth is exceeded.
+b.This typically occurs when a function calls itself recursively, and the recursion doesn't have a
+ proper stopping condition (base case).
+c.It is caused by a function calling itself recursively without a proper base case.
+d.Python has a limit on the number of times a function can call itself recursively.
+e.the recursive function func() does not have a terminating condition, calling it creates an 
+infinite loop as the function keeps calling itself over and over again until the
+ RecursionError: maximum recursion depth exceeded error occurs:
+Adding a base case
+Increasing the recursion limit
+Using an iterative approach
+--------------------------------------------------
+TYPE ERROR:-
+a.need to be instantiated, or called, before you can access their methods.
+b.If you forget to instantiate an object of a class and try to access a class method, 
+you encounter an error saying “missing 1 required positional argument: ‘self’”.
+c.Positional arguments refer to data that is passed into a function. 
+d.In a class, every function must be given the value “self”.
+e.The most common mistakes that are made that cause the “missing 1 required 
+   positional argument: ‘self’” error are:
+
+1.Forgetting to instantiate an object of a class
+2.Using the incorrect syntax to instantiate a class
